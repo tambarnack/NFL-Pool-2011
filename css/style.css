@@ -1,0 +1,115 @@
+#centerColumn {
+	font-family: 'Marvel', sans-serif;
+	font-weight: 400;
+}
+
+#resultedList {
+	clear: both;
+}
+
+.game {
+    border-bottom: 2px solid #EDF1F3;
+    color: #333333;
+    height: 60px;
+    padding: 10px 20px;
+    position: relative;
+    width: 584px;
+}
+
+div.game .visitor {
+	float: left;
+	width: 35%;
+}
+
+.game .visitor img {
+	float: right;
+	display: inline;
+}
+
+.game .visitor .name{
+	float: left;
+}
+
+div.game .local {
+	float: right;
+	width: 35%;
+}
+
+.game .local img {
+	float: left;
+	display: inline;
+}
+
+.game .local .name{
+	float: right;
+}
+
+.game .score {
+	float: left;
+	width: 30%;
+	text-align: center;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.game div .name{
+	font-size: 18px;
+	font-weight: bold;
+}
+
+/* LEADERBOARD */
+
+.leaderboard { width: 600px; }
+
+.leaderboard th{ height: 30px; background-color: #336680; color: #FFFFFF; font-size: 22px; font-weight: 700; padding: 0px 6px; }
+
+.leaderboard th.player-name-column{ border-radius: 6px 0 0 0; width: 320px; }
+.leaderboard th.player-points-column{ width: 50px; text-align: center; }
+.leaderboard th.options{ border-radius: 0 6px 0 0; text-align: center; }
+.leaderboard th.options a{ color: #FF6709; }
+.leaderboard td{ border-bottom: 1px dotted #000000; font-weight: 400; font-size: 18px; padding: 4px 6px;}
+.leaderboard td.options, .leaderboard td.points{ text-align: center; width: 150px; }
+
+.leaderboard th.header-visitor{ border-radius: 6px 0 0 0; width: 225px; text-align: right; }
+.leaderboard th.header-local{ border-radius: 0 6px 0 0; width: 225px; }
+
+/* PAGINATION */
+.pagination {
+            font-size: 14px;
+        }
+        
+.pagination a {
+    text-decoration: none;
+	border: solid 1px #AAE;
+	color: #15B;
+}
+
+.pagination a, .pagination span {
+    display: block;
+    float: left;
+    padding: 0.3em 0.5em;
+    margin-right: 5px;
+	margin-bottom: 5px;
+}
+
+.pagination .current {
+    background: #26B;
+    color: #fff;
+	border: solid 1px #AAE;
+}
+
+.pagination .current.prev, .pagination .current.next{
+	color:#999;
+	border-color:#999;
+	background:#fff;
+}
+
+/* Permission denied */
+#permissionDenied {
+	font-size: 34px;
+	text-align: center;
+}
+
+.points.won{
+	background-color: #005702;
+}
